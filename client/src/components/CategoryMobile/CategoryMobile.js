@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './CategoryWidget.css';
-import Tags from '../Tags/Tags';
+import './CategoryMobile.css';
+import TagsMobile from '../TagsMobile/TagsMobile';
 
 
 
-const CategoryWidget = () => {
+const CategoryMobile = () => {
     return (
         <Card className="p-0 my-2">
         <Card.Body>
             <Card.Title className="widget-title">CATEGORIES</Card.Title>
-            <Tags />
+            <TagsMobile />
 
         </Card.Body>
         </Card>
     )};
 
-export default CategoryWidget;
+export default CategoryMobile;

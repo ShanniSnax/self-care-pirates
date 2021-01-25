@@ -82,9 +82,13 @@ const Forum = () => {
   return (
     <Container fluid className="forum-container">
       <Row>
+        
+        <Col className="mobile-categories" xs={12}>
+              <CategoryWidget />
+        </Col>
 
         {/* left side widgets */}
-        <Col xs={2}>
+        <Col className="desktop-categories" xs={2}>
           <Row>
             <Col xs={12}>
               <CategoryWidget />
@@ -98,7 +102,7 @@ const Forum = () => {
         </Col>
 
         {/* posts */}
-        <Col xs={8}>
+        <Col md={8} sm={12}>
             <Row>
               <Col xs={12}>
                 <MakePost username={username.username}/>
