@@ -11,6 +11,7 @@ import PostPage from "./pages/PostPage/PostPage";
 import SignIn from "./pages/SignIn";
 import ProtectedRoute from "./components/ProtectedRoute";
 
+
 function App() {
   return (
     <Router>

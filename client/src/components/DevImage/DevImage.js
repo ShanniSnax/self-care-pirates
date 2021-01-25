@@ -6,7 +6,7 @@ import "./DevImage.css"
 const DevImage = (props) => {
     return (
         <Container>
-            <img className="dev-image" alt="dev profile image" src={props.source}/>
+            <img className={props.className} alt="dev profile image" src={props.source}/>
         </Container>
     )
 };

@@ -41,17 +41,19 @@ import "./DevCard.css"
 
 const DevCard = (props) => {
     return (
-        
-<Card >
-  {/* <Card.Img style={styles.image} variant="top" src="https://picsum.photos/200" /> */}
-    <Card.Body>
-    <Card.Title>{props.name}</Card.Title>
-    <Card.Text>
-    <li>{props.github}</li>
-    </Card.Text>
-    </Card.Body>
 
-</Card>
-    )};
+        <Card>
+            {/* <Card.Img style={styles.image} variant="top" src="https://picsum.photos/200" /> */}
+            <Card.Body>
+                <Card.Title>{props.name}</Card.Title>
+                <a href={props.github}>
+                    <Card.Text>
+                        {props.github}
+                    </Card.Text>
+                </a>
+            </Card.Body>
+        </Card>
+    )
+};
 
 export default DevCard;
