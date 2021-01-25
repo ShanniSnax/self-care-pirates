@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Candy Garcia",
+      "github": "https://github.com/candygarcia014",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_QyQeJ7Wkfu604EQZAbR5RcC-vFl6UDV1Q&usqp=CAU"
+    },
+    {
+        "id": 2,
+        "name": "Laurynas Juzva",
+        "github": "https://github.com/Juzva8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_QyQeJ7Wkfu604EQZAbR5RcC-vFl6UDV1Q&usqp=CAU"
+    },
+    {
+        "id": 3,
+        "name": "Tammy Nguyen",
+        "github": "https://github.com/ttngu",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_QyQeJ7Wkfu604EQZAbR5RcC-vFl6UDV1Q&usqp=CAU"
+    },
+    {
+        "id": 4,
+        "name": "Shanni Suissa",
+        "github": "https://github.com/ShanniSnax",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_QyQeJ7Wkfu604EQZAbR5RcC-vFl6UDV1Q&usqp=CAU"
+    },
+    {
+        "id": 5,
+        "name": "Cathlene Converse",
+        "github": "https://github.com/cgconverse",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_QyQeJ7Wkfu604EQZAbR5RcC-vFl6UDV1Q&usqp=CAU"
+    }
+   
+  ]
+  
