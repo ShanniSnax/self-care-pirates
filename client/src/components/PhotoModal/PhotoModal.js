@@ -11,8 +11,8 @@ function PhotoModal() {
   
     return (
       <>
-        <Button variant="secondary" onClick={handleShow} className="PhotoBtn">
-          Add
+        <Button variant="outline-secondary" onClick={handleShow} className="PhotoBtn">
+          +
         </Button>
   
         <Modal show={show} onHide={handleClose}>

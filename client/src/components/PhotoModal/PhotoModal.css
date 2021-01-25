@@ -1,8 +1,10 @@
 .PhotoBtn {
-    background: #032626;
-    border-radius: 40px;
+    border-radius: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: smaller;
+    margin-top: 0.5rem;
+    /* THIS STLYING IS NOT DONE. PLEASE DO NOT TOUCH IT. */
 }
 
