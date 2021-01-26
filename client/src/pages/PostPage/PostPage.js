@@ -7,6 +7,7 @@ import './PostPage.css';
 import OtherWidgets from '../../components/OtherWidgets/OtherWidgets';
 import MakeComment from '../../components/MakeComment/MakeComment';
 import Comments from '../../components/Comments/Comments';
+import CategoryMobile from '../../components/CategoryMobile/CategoryMobile';
 
 //fake data placeholders 
 
@@ -46,8 +47,12 @@ const PostPage = () => {
     <Container fluid className="forum-container">
       <Row>
 
+        <Col className="mobile-categories" xs={12}>
+              <CategoryMobile />
+        </Col>
+
         {/* left side widgets */}
-        <Col xs={2}>
+        <Col className="desktop-categories" xs={2}>
           <Row>
             <Col xs={12}>
               <CategoryWidget />
@@ -61,7 +66,7 @@ const PostPage = () => {
         </Col>
 
         {/* truncated posts */}
-        <Col xs={8}>
+        <Col xs={12} lg={8} sm={12}>
             {fakeData.map(({ title, body, username, date, id}) => (
             <Row>
             <Col xs={12}>
@@ -97,9 +102,9 @@ const PostPage = () => {
         </Col>
 
         {/* right side widgets */}
-        <Col xs={2}>
+        <Col xs={12} lg={2} sm={12}>
           <Row>
-            <Col xs={12}>
+            <Col xs={12} sm={12}>
               <OtherWidgets />
             </Col>
           </Row>

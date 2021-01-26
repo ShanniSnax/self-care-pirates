@@ -7,6 +7,8 @@ import './Forum.css';
 import OtherWidgets from '../../components/OtherWidgets/OtherWidgets';
 import MakePost from '../../components/MakePost/MakePost';
 import Api from "../../utils/Api"
+import CategoryMobile from '../../components/CategoryMobile/CategoryMobile';
+
 
 //fake data placeholders 
 
@@ -84,7 +86,7 @@ const Forum = () => {
       <Row>
         
         <Col className="mobile-categories" xs={12}>
-              <CategoryWidget />
+              <CategoryMobile />
         </Col>
 
         {/* left side widgets */}
@@ -102,7 +104,7 @@ const Forum = () => {
         </Col>
 
         {/* posts */}
-        <Col md={8} sm={12}>
+        <Col xs={12} lg={8} sm={12}>
             <Row>
               <Col xs={12}>
                 <MakePost username={username.username}/>
@@ -126,9 +128,9 @@ const Forum = () => {
         </Col>
 
         {/* right side widgets */}
-        <Col xs={2}>
+        <Col xs={12} lg={2} sm={12}>
           <Row>
-            <Col xs={12}>
+            <Col xs={12} sm={12}>
               <OtherWidgets />
             </Col>
           </Row>
