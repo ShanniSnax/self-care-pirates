@@ -6,6 +6,7 @@ const jwt = require("../configs/jwt");
 const { User, Posts, Comments } = require("../models/index");
 const passport = require("../configs/passport");
 const isUserAuthenticated = require("../middlewear/isAuthenticated");
+const path = require ("path") 
 // creating s3 instance (to allow uploads)
 const s3 = new AWS.S3({
   accessKeyId: keys.s3key,
@@ -166,7 +167,7 @@ router.get("/posts/:postId", (req, res) => {
     .then((post) => res.json(post));
 });
 
-router.get("*", (req, res) => {
+router.use((req, res) => {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
