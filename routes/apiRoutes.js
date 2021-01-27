@@ -166,5 +166,8 @@ router.get("/posts/:postId", (req, res) => {
     .then((post) => res.json(post));
 });
 
+router.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+});
 
 module.exports = router;
