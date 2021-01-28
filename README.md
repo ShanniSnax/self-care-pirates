@@ -12,6 +12,9 @@
 * SCP is a men oriented self-care content and discussion website. Registered members submit content to the site such as links, text posts, and images, which are then can be commented on and shared.
 ## Installation
 * Use deployment link below
+## Link to deployed version of the app
+* https://github.com/ShanniSnax/self-care-pirates 
+* https://aqueous-refuge-56122.herokuapp.com/ 
 ## Screenshot
 ![screenshot](ScreenShot.png)
 ## Usage
