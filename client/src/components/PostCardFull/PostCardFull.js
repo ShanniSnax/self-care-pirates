@@ -11,6 +11,9 @@ const PostCardFull = (props) => {
     const handleShare = () => {
         const getUrl = window.location.href
         console.log(getUrl)
+
+    document.querySelector("#baseUrl")
+    alert('share this link    ' + baseUrl) 
         }
 
 
