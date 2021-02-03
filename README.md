@@ -11,11 +11,6 @@ The app does not require the user to register to view the forum, but if the user
 ## User Story:
 Men want a straightforward and reliable website to find information about self-care, where they can share their personal experiences and reviews. Men deserve a positive community to discuss and research self care, and finally stop using 4-in-one shampoo. 
 
-## Features
-* BMI calculator from the CDDC website - https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/english_bmi_calculator/bmi_calculator.html <br/>
-
-* Caloric need calculator that can direct the user to a meal-pep service - https://www.mealpro.net/blog/fitness-calculators/#gref
-
 
 ## Table of Contents 
 * [Installation](#installation)
